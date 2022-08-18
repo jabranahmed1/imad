@@ -20,7 +20,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets"              
             ],
             "styles": [
               "src/styles.css"
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ab582f9f-613f-42b6-b1e7-43682e51857a"
   }
 }
