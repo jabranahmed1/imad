@@ -31,7 +31,7 @@
 				<!-- Welcome Text -->
 				<div class="welcome-text">
 					<h3>We're glad to see you again!</h3>
-					<span>Don't have an account? <a href="register">Sign Up!</a></span>
+					<span>Don't have an account? <a href="register">Sign Up Now !</a></span>
 				</div>
 					
 				<!-- Form -->
@@ -93,6 +93,17 @@
       backgroundColor: '#383838'
     }); 
   }); 
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".cnt .radio-content").hide();
+      $(".cnt .radio-content:first-child").show();
+      $(".radio_wrap").click(function(){
+          var current_radio= $(this).attr("data-radio");
+          $(".cnt .radio-content").hide();
+          $("." + current_radio).show();
+      });
+    });
   </script>
   <!-- Google API & Maps -->
 <!-- Geting an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key -->

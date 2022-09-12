@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "hiringapp-6c33a": {
+      "hosting": {
+        "hiringapp": [
+          "hiringapp-6c33a"
+        ]
+      }
+    },
+    "hiringappfirebase": {
+      "hosting": {
+        "hiringapp": [
+          "hiringappfirebase"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hiringappfirebase"
+  }
+}
