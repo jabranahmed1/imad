@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser'
 })
 export class AppComponent {
   title = 'HiringApp';
-
+  front: boolean = true; // hada variable khass yrje3 fih letat dial luser wach logged in ola la
   constructor(private titleService: Title){
     titleService.setTitle('Hiring App');
     

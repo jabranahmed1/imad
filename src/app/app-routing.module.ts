@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BlogComponent } from './blog/blog.component';
 import { ConnectedComponent } from './connected/connected.component';
 import { ContactComponent } from './contact/contact.component';
+import { EmployerdashboardComponent } from './employerdashboard/employerdashboard.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
@@ -16,6 +17,7 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent},
   { path: 'blog', component: BlogComponent},
   { path: 'connected', component: ConnectedComponent},
+  { path: 'employerdashboard', component: EmployerdashboardComponent},
   { path: "**", component: PagenotfoundComponent}
 ];
 
@@ -24,4 +26,4 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents= [LoginComponent, RegisterComponent, HomeComponent, ContactComponent, BlogComponent, PagenotfoundComponent, ConnectedComponent]
+export const routingComponents= [LoginComponent, RegisterComponent, HomeComponent, ContactComponent, BlogComponent, PagenotfoundComponent, ConnectedComponent, EmployerdashboardComponent]

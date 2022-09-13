@@ -15,6 +15,7 @@ import { FirebaseService } from './services/firebase.service';
 import { HotToastModule } from '@ngneat/hot-toast';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ConnectedComponent } from './connected/connected.component';
+import { EmployerdashboardComponent } from './employerdashboard/employerdashboard.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ConnectedComponent } from './connected/connected.component';
     FooterComponent,
     HeaderComponent,
     routingComponents,
-    ConnectedComponent
+    ConnectedComponent,
+    EmployerdashboardComponent
   ],
   imports: [
     BrowserModule,
