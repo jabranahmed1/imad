@@ -16,6 +16,7 @@ import { HotToastModule } from '@ngneat/hot-toast';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ConnectedComponent } from './connected/connected.component';
 import { EmployerdashboardComponent } from './employerdashboard/employerdashboard.component';
+import { PostnewjobComponent } from './postnewjob/postnewjob.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { EmployerdashboardComponent } from './employerdashboard/employerdashboar
     HeaderComponent,
     routingComponents,
     ConnectedComponent,
-    EmployerdashboardComponent
+    EmployerdashboardComponent,
+    PostnewjobComponent
   ],
   imports: [
     BrowserModule,

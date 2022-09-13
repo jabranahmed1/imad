@@ -7,6 +7,7 @@ import { EmployerdashboardComponent } from './employerdashboard/employerdashboar
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PostnewjobComponent } from './postnewjob/postnewjob.component';
 import { RegisterComponent } from './register/register.component';
 
 export const routes: Routes = [
@@ -18,6 +19,7 @@ export const routes: Routes = [
   { path: 'blog', component: BlogComponent},
   { path: 'connected', component: ConnectedComponent},
   { path: 'employerdashboard', component: EmployerdashboardComponent},
+  { path: 'postnewjob', component: PostnewjobComponent},
   { path: "**", component: PagenotfoundComponent}
 ];
 
@@ -26,4 +28,4 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents= [LoginComponent, RegisterComponent, HomeComponent, ContactComponent, BlogComponent, PagenotfoundComponent, ConnectedComponent, EmployerdashboardComponent]
+export const routingComponents= [LoginComponent, RegisterComponent, HomeComponent, ContactComponent, BlogComponent, PagenotfoundComponent, ConnectedComponent, EmployerdashboardComponent, PostnewjobComponent]
